@@ -7,7 +7,6 @@
   <a href="https://chromewebstore.google.com/detail/soc-toolkit/ibjcnpellfbdleipcipmmhnjdcabhffo"><img alt="Chrome Web Store" src="https://img.shields.io/chrome-web-store/v/xxxxxxxx?label=chrome%20web%20store&style=for-the-badge"/></a>
   <a href="https://addons.mozilla.org/firefox/addon/xxxxxxxx"><img alt="Firefox Add-on" src="https://img.shields.io/amo/v/xxxxxxxx?label=firefox%20add-on&style=for-the-badge"/></a>
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/license-proprietary-E91E63?style=for-the-badge"/></a>
-  <a href="https://www.linkedin.com/in/gjabour/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-@gjabour-0A66C2?logo=linkedin&logoColor=white&style=for-the-badge"/></a>
 </p>
 
 > **SOC Toolkit** turbo-charges day-to-day investigations: *highlight → right click → instant enrichment*.  
@@ -19,7 +18,7 @@
 
 |                           | Capability                                                                                                 | What it means for you                        |
 | ------------------------- | ----------------------------------------------------------------------------------------------------------- | -------------------------------------------- |
-| 🔍 **Threat Intel**       | Multi-source lookup (VirusTotal, OTX, AbuseIPDB…) · automatic IOC extraction                                | 360° view of any indicator in two clicks     |
+| 🔍 **Threat Intel**       | Multi-source lookup (VirusTotal, OTX, AbuseIPDB…) · automatic IOC extraction                                | Analyse any indicator in three clicks        |
 | 🧩 **Investigation Hub**  | Case folders · timeline view · correlation graphs · screenshots & notes                                     | Keep evidence organised and audit-ready      |
 | ⚡ **Workflow Boosters**  | Right-click actions · auto-highlight · dark/light theme                                                     | Investigate at the speed of thought          |
 | 📤 **Export & Reporting** | JSON · PNG · full-page screenshot                                                                           | Hand-off findings without tedious formatting |
