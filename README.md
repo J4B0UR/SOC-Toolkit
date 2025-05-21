@@ -5,7 +5,6 @@
   
   <a href="#quick-start"><img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue?style=for-the-badge"/></a>
   <a href="https://chromewebstore.google.com/detail/soc-toolkit/ibjcnpellfbdleipcipmmhnjdcabhffo"><img alt="Chrome Web Store" src="https://img.shields.io/chrome-web-store/v/xxxxxxxx?label=chrome%20web%20store&style=for-the-badge"/></a>
-  <a href="https://addons.mozilla.org/firefox/addon/xxxxxxxx"><img alt="Firefox Add-on" src="https://img.shields.io/amo/v/xxxxxxxx?label=firefox%20add-on&style=for-the-badge"/></a>
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/license-proprietary-E91E63?style=for-the-badge"/></a>
 </p>
 
