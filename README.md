@@ -1,121 +1,160 @@
-# SOC Toolkit
+<p align="center">
+  <img src="assets/banner.png" width="720" alt="SOC Toolkit banner"/>
+  <h1>SOC&nbsp;Toolkit</h1>
+  <em>The Swiss-army-knife browser extension for <strong>Security Operations Center</strong> analysts.</em><br/>
+  
+  <a href="#quick-start"><img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue?style=for-the-badge"/></a>
+  <a href="https://chromewebstore.google.com/detail/soc-toolkit/ibjcnpellfbdleipcipmmhnjdcabhffo"><img alt="Chrome Web Store" src="https://img.shields.io/chrome-web-store/v/xxxxxxxx?label=chrome%20web%20store&style=for-the-badge"/></a>
+  <a href="https://addons.mozilla.org/firefox/addon/xxxxxxxx"><img alt="Firefox Add-on" src="https://img.shields.io/amo/v/xxxxxxxx?label=firefox%20add-on&style=for-the-badge"/></a>
+  <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/license-proprietary-E91E63?style=for-the-badge"/></a>
+  <a href="https://www.linkedin.com/in/gjabour/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-@gjabour-0A66C2?logo=linkedin&logoColor=white&style=for-the-badge"/></a>
+</p>
 
-SOC Toolkit is a free, open-source browser extension designed to streamline security investigations by eliminating the need for constant copying and pasting during incident analysis. Compatible with Chromium-based browsers (Chrome, Edge, Brave, Opera) and Firefox.
-
-![GitHub stars](https://img.shields.io/github/stars/username/soctoolkit?style=social)
-![GitHub license](https://img.shields.io/github/license/username/soctoolkit)
-![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/extensionid)
-![Firefox Add-ons](https://img.shields.io/amo/rating/soctoolkit)
-
-## 🔍 Overview
-
-SOC Toolkit empowers security analysts to perform rapid IOC (Indicators of Compromise) queries and manage investigation artifacts directly within the browser. Simply select text, right-click, and choose the desired investigation method from the context menu.
-
-![Screenshot of SOC Toolkit in action](screenshot.png)
-
-## ✨ Features
-
-### Fast IOC Lookups
-- **IP Reputation** via VirusTotal, AbuseIPDB, GreyNoise, IBM X-Force, Talos, and more
-- **WHOIS for IP/Domain** 
-- **Hash Analysis** (MD5, SHA1, SHA256) across multiple sources
-- **Domain Intelligence** via AlienVault OTX, VirusTotal, and others
-- **Blockchain Address Verification**
-- **MAC Address Manufacturer Identification**
-- **User-Agent Parsing**
-- **CVE Information Lookup**
-- **Microsoft Error Code Reference**
-- **Windows Event ID Lookup** (Windows, SharePoint, SQL Server, Exchange, Sysmon)
-- **Windows Binary Verification** via Winbindex
-- **LOLBins Check** (Living Off The Land Binaries)
-- **Data Decoding** via CyberChef (Base64, HEX, etc)
-
-### Advanced Investigation Tools
-- **Query History**: Store previous searches for quick reference
-- **Investigation Cases**: Organize queries by case to maintain context
-- **Report Export**: Export results in various formats (CSV, JSON)
-- **Custom Interface**: Personalize with light/dark theme
-- **Text Highlighting**: Emphasize specific terms on web pages with type-specific styling
-- **Integrated Notes**: Attach notes to specific IOCs
-- **IOC Correlation**: Visualize relationships between different indicators
-- **Timeline Feature**: Track investigation activities chronologically
-
-## 🔄 Latest Features
-
-- **Modern UI**: Clean, responsive design with gradient backgrounds and improved card layouts
-- **Enhanced Text Highlighting**: Type-specific styling and improved tooltips
-- **Optimized Performance**: Faster loading and reduced memory consumption
-- **Improved Dark Theme**: Better contrast and readability
-- **Advanced IOC Pattern Recognition**: Better detection and visualization
-- **Streamlined Workflow**: Organized by investigation cases
-
-## 🚀 Installation
-
-### Chrome, Edge, Brave, and other Chromium-based browsers
-1. Visit the [Chrome Web Store](https://chrome.google.com/webstore/)
-2. Search for "SOC Toolkit" or navigate directly using the link
-3. Click "Add to Chrome"
-
-### Firefox
-1. Visit the [Firefox Add-ons Store](https://addons.mozilla.org/)
-2. Search for "SOC Toolkit" or navigate directly using the link
-3. Click "Add to Firefox"
-
-## 💡 Usage Guide
-
-1. Select any text (IP, domain, hash, etc.) on any web page
-2. Right-click the selection
-3. Navigate to the SOC Toolkit context menu
-4. Choose the desired analysis type
-5. A new tab will open with the results
-
-### Usage Examples
-- **IPs**: 8.8.8.8, 1.1.1.1
-- **Domains**: example.com, github.com
-- **Hashes**: 44d88612fea8a8f36de82e1278abb02f
-- **CVEs**: CVE-2021-44228
-- **Event IDs**: 4624, 4625
-- **Error Codes**: 0x80004005
-
-### Advanced Features
-
-- **Search History**: Access history by clicking the extension icon
-- **Investigation Mode**: Create "cases" to group related IOCs
-- **Text Highlighting**: Use the context menu to highlight important terms on pages
-- **Timeline View**: Track and organize investigation activities chronologically
-
-## 📜 License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-## 🙏 Acknowledgments
-
-- [VirusTotal](https://www.virustotal.com/)
-- [AbuseIPDB](https://www.abuseipdb.com/)
-- [AlienVault OTX](https://otx.alienvault.com/)
-- [CyberChef](https://cyberchef.org/)
-- [LOLBAS Project](https://lolbas-project.github.io/)
-- [Winbindex](https://winbindex.m417z.com/)
-- All other integrated platforms and tools
-
-## 🔮 Future Features
-
-- REST API integration for programmatic access
-- MISP and STIX/TAXII integration for IOC export
-- Integration with ticketing systems (JIRA, ServiceNow)
-- Advanced visual correlation of IOCs
-- Organization-specific intel source customization
-- Automated IOC extraction from web pages
-- Advanced regex-based IOC detection in text
-- Multi-language support
-- AI-powered IOC contextual analysis
-- Enhanced reporting capabilities
-- Collaborative investigation features
+> **SOC Toolkit** turbo-charges day-to-day investigations: *highlight → right click → instant enrichment*.  
+> Say goodbye to endless copy-and-paste and hello to focused, repeatable workflows.
 
 ---
 
+## ✨ Why you'll love it
+
+|                           | Capability                                                                                                 | What it means for you                        |
+| ------------------------- | ----------------------------------------------------------------------------------------------------------- | -------------------------------------------- |
+| 🔍 **Threat Intel**       | Multi-source lookup (VirusTotal, OTX, AbuseIPDB…) · automatic IOC extraction                                | 360° view of any indicator in two clicks     |
+| 🧩 **Investigation Hub**  | Case folders · timeline view · correlation graphs · screenshots & notes                                     | Keep evidence organised and audit-ready      |
+| ⚡ **Workflow Boosters**  | Right-click actions · auto-highlight · dark/light theme                                                     | Investigate at the speed of thought          |
+| 📤 **Export & Reporting** | JSON · PNG · full-page screenshot                                                                           | Hand-off findings without tedious formatting |
+
+---
+
+## 📑 Table of Contents
+
+1. [Quick Start](#-quick-start)  
+2. [Features in Depth](#-features-in-depth)  
+3. [Usage Guide](#-usage-guide)  
+4. [IOC Correlation](#-ioc-correlation)  
+5. [Export Options](#-export-options)  
+6. [Screenshots](#-screenshots)  
+7. [Security & Privacy](#-security--privacy)  
+8. [License](#-license)  
+
+---
+
+## 🚀 Quick Start
+
+### Chrome / Edge
+
+1. Open the Chrome Web Store ➜ **"SOC Toolkit"**  
+2. Click **Add to Chrome**  
+3. Pin the extension for easy access  
+
+### Firefox
+
+1. Open Firefox Add-ons ➜ **"SOC Toolkit"**  
+2. Click **Add to Firefox**
+3. Pin the extension for easy access    
+
+---
+
+## 🔍 Features in Depth
+
+### Threat Intelligence
+- **Multi-source enrichment** — VirusTotal, AbuseIPDB, AlienVault OTX, Shodan and custom APIs  
+- **Smart IOC extractor** — detects IPs, domains, URLs, hashes, emails  
+- **Real-time score** — traffic-light system with confidence & first-seen timestamps  
+
+### Investigation Management
+- **Cases & timelines** — group findings, screenshots and chronological events  
+- **Interactive graphs** — visualise relationships between indicators, artefacts and targets  
+- **Custom tags & filters** — slice data the way your playbook needs  
+
+### Workflow Enhancement
+- Context-menu actions  
+- Auto-highlight IOCs (hashes, IPs, domains) in-page  
+- Dark & light themes with high-contrast option  
+
+### Analysis & Reporting
+- Confidence scoring & historical intel diff  
+- Export complete case as **JSON** or **PNG** (full-page screenshot)  
+
+---
+
+## 📝 Usage Guide
+
+1. Highlight suspicious text on any webpage  
+2. Right-click ➜ "SOC Toolkit ➜ Select Website"  
+3. Watch the side-panel capture your search  
+
+**Tips:**
+- Use the 🔗 icon to pivot between related IOCs
+
+---
+
+## 🕵️‍♂️ Investigation Workflow
+
+1. **Scoping** — create a new case, define objective & scope
+2. **Collection** — select textual artefacts, let Toolkit auto-highlight IOCs
+3. **Enrichment** — pivot across TI providers, view relationships & history
+4. **Correlation** — graph view for links, timeline for sequence, tag for themes
+5. **Reporting** — export JSON or PNG to share with colleagues or ticketing systems
+
+---
+
+## 🌐 IOC Correlation
+
+### Types of Correlations
+- **Direct** — IP ⇄ Domain, URL ⇄ Domain, Hash family
+- **Indirect** — infrastructure reuse, ASN overlap, temporal clusters
+
+### Visualization
+- Line thickness = relationship strength
+- Hue = data-source confidence
+- Interactive node exploration
+
+---
+
+## 📤 Export Options
+
+| Format | Contains | Ideal for |
+|--------|----------|-----------|
+| JSON | Full case object model with IOCs, notes & timeline | Automation pipelines |
+| PNG | Timeline or graph screenshot | Presentations |
+| Screenshot | Full-page capture of the evidence site | Evidence preservation |
+
+---
+
+## 🖼 Screenshots
+
 <div align="center">
+  <img src="assets/screenshots/screenshot-1.png" alt="Enrichment Panel" width="400"/>
+  <img src="assets/screenshots/screenshot-2.png" alt="Graph View" width="400"/>
+  <img src="assets/screenshots/screenshot-3.png" alt="Timeline" width="400"/>
+</div>
 
-Developed by [Gabriel Jabour](https://www.linkedin.com/in/gjabour/) 
+---
 
-</div> 
+## 🛠️ Troubleshooting
+
+- Verify required permissions in chrome://extensions
+- Disable conflicting extensions (ad-blockers injecting scripts)
+- Clear site data & reload page
+- Check Settings ➜ Patterns — regex may be disabled
+- Ensure auto-highlight is ON (icon ☀︎)
+
+---
+
+## 🔒 Security & Privacy
+
+- All look-ups happen client-side; only selected IOCs are sent to providers you enable
+- No telemetry, analytics or tracking — what happens in your browser stays there
+- Review the data-flow diagram for integration details
+
+---
+
+## 📜 License
+
+This project is proprietary. All rights reserved.  
+For enterprise licensing please contact me@gabrieljabour.dev.
+
+---
+
+<p align="center"> Built with ❤️ by Jabour for blue-teamers – stay safe & hunt on! </p> 
