@@ -1,8 +1,13 @@
 <p align="center">
   <img src="assets/banner.png" width="720" alt="SOC Toolkit banner"/>
   <h1>SOC&nbsp;Toolkit</h1>
-  <em>The Swiss-army-knife browser extension for <strong>Security Operations Center</strong> analysts.</em><br/>
-  
+  <em>
+    The Swiss-army-knife browser extension for <strong>Security Operations Center</strong> analysts.
+  </em>
+</p>
+
+<br/>  <!-- adiciona espaço extra -->
+
 <p align="center">
   <a href="#quick-start">
     <img alt="Version" src="https://img.shields.io/badge/version-1.1.0-blue?style=for-the-badge"/>
@@ -14,7 +19,6 @@
     <img alt="License" src="https://img.shields.io/badge/license-proprietary-E91E63?style=for-the-badge"/>
   </a>
 </p>
-
 
 > **SOC Toolkit** turbo-charges day-to-day investigations: *highlight → right click → instant enrichment*.  
 > Say goodbye to endless copy-and-paste and hello to focused, repeatable workflows.
@@ -39,7 +43,7 @@
 3. [Usage Guide](#-usage-guide)  
 4. [IOC Correlation](#-ioc-correlation)  
 5. [Export Options](#-export-options)  
-6. [Screenshots](#-screenshots)  
+6. [Video Demonstration](#-video-demonstration)  
 7. [Security & Privacy](#-security--privacy)  
 8. [License](#-license)  
 
