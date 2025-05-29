@@ -3,10 +3,18 @@
   <h1>SOC&nbsp;Toolkit</h1>
   <em>The Swiss-army-knife browser extension for <strong>Security Operations Center</strong> analysts.</em><br/>
   
-  <a href="#quick-start"><img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue?style=for-the-badge"/></a>
-  <a href="https://chromewebstore.google.com/detail/soc-toolkit/ibjcnpellfbdleipcipmmhnjdcabhffo"><img alt="Chrome Web Store" src="https://img.shields.io/chrome-web-store/v/xxxxxxxx?label=chrome%20web%20store&style=for-the-badge"/></a>
-  <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/license-proprietary-E91E63?style=for-the-badge"/></a>
+<p align="center">
+  <a href="#quick-start">
+    <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue?style=for-the-badge"/>
+  </a>
+  <a href="https://chromewebstore.google.com/detail/soc-toolkit/ibjcnpellfbdleipcipmmhnjdcabhffo?utm_source=item-share-cb">
+    <img alt="Chrome Web Store" src="https://img.shields.io/chrome-web-store/v/ibjcnpellfbdleipcipmmhnjdcabhffo?label=chrome%20web%20store&style=for-the-badge"/>
+  </a>
+  <a href="LICENSE">
+    <img alt="License" src="https://img.shields.io/badge/license-proprietary-E91E63?style=for-the-badge"/>
+  </a>
 </p>
+
 
 > **SOC Toolkit** turbo-charges day-to-day investigations: *highlight → right click → instant enrichment*.  
 > Say goodbye to endless copy-and-paste and hello to focused, repeatable workflows.
@@ -39,19 +47,11 @@
 
 ## 🚀 Quick Start
 
-### Chrome / Edge
+### Chrome / Edge / Opera
 
 1. Open the Chrome Web Store ➜ **"SOC Toolkit"**  
 2. Click **Add to Chrome**  
 3. Pin the extension for easy access  
-
-### Firefox
-
-1. Open Firefox Add-ons ➜ **"SOC Toolkit"**  
-2. Click **Add to Firefox**
-3. Pin the extension for easy access    
-
----
 
 ## 🔍 Features in Depth
 
@@ -120,12 +120,12 @@
 
 ---
 
-## 🖼 Screenshots
+## 🎥 Video Demonstration
 
 <div align="center">
-  <img src="assets/screenshots/screenshot-1.png" alt="Enrichment Panel" width="400"/>
-  <img src="assets/screenshots/screenshot-2.png" alt="Graph View" width="400"/>
-  <img src="assets/screenshots/screenshot-3.png" alt="Timeline" width="400"/>
+  <video src="assets/demo.mp4" alt="Demo Video" width="800" controls>
+    Your browser does not support the video tag.
+  </video>
 </div>
 
 ---
@@ -151,7 +151,6 @@
 ## 📜 License
 
 This project is proprietary. All rights reserved.  
-For enterprise licensing please contact me@gabrieljabour.dev.
 
 ---
 
