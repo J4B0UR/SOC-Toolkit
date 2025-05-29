@@ -123,9 +123,7 @@
 ## 🎥 Video Demonstration
 
 <div align="center">
-  <video src="assets/demo.gif" alt="Demo Video" width="800" controls>
-    Your browser does not support the video tag.
-  </video>
+  <img src="assets/demo.gif" alt="Demo GIF" width="800"/>
 </div>
 
 ---
