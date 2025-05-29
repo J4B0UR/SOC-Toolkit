@@ -5,7 +5,7 @@
   
 <p align="center">
   <a href="#quick-start">
-    <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue?style=for-the-badge"/>
+    <img alt="Version" src="https://img.shields.io/badge/version-1.1.0-blue?style=for-the-badge"/>
   </a>
   <a href="https://chromewebstore.google.com/detail/soc-toolkit/ibjcnpellfbdleipcipmmhnjdcabhffo?utm_source=item-share-cb">
     <img alt="Chrome Web Store" src="https://img.shields.io/chrome-web-store/v/ibjcnpellfbdleipcipmmhnjdcabhffo?label=chrome%20web%20store&style=for-the-badge"/>
