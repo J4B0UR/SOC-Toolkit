@@ -49,10 +49,10 @@
 
 ### Chrome / Edge / Opera
 
-1. Open the Chrome Web Store ➜ **"SOC Toolkit"**  
+1. Open the Chrome Web Store ➜ **“SOC Toolkit”** or [click here](https://chromewebstore.google.com/detail/ibjcnpellfbdleipcipmmhnjdcabhffo?utm_source=item-share-cb)
 2. Click **Add to Chrome**  
-3. Pin the extension for easy access  
-
+3. Pin the extension for easy access
+   
 ## 🔍 Features in Depth
 
 ### Threat Intelligence
